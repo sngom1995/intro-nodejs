@@ -6,6 +6,8 @@ console.log('Total memory of the system: ' + os.totalmem());
 console.log('OS Platform: ' + os.platform());
 console.log('Information about the current user: ' + os.userInfo().username);
 console.log('OS Type: ' + os.type());
+console.log('cpus: ', os.cpus());
+console.log('Network Interfaces: ', os.networkInterfaces());
 console.log('OS Release: ' + os.release());
 console.log('OS Temporary folder: ' + os.tmpdir());
 console.log('Host Name: ' + os.hostname());
