@@ -9,5 +9,3 @@ process.on('exit', (code) => {
     console.log('Process exit event with code: ', code);
 }
 );
-
-process.exit(1);
